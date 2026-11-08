@@ -1,16 +1,16 @@
 /* =====================================================================
    OpenAI configuration — EDIT THIS FILE YOURSELF, LOCALLY.
 
-   Paste your own OpenAI API key below between the quotes.
-   NEVER share this file, paste your key into a chat, or commit it to a
-   public GitHub repo — anyone who sees it can spend money on your account.
-
-   Because this is a static site with no backend, this key is visible to
-   anyone who opens their browser's dev tools while using the site. That's
-   fine for personal/local use, but do not deploy this publicly as-is.
+   NEVER put an OpenAI key in this file if the repo is public — OpenAI
+   disables keys found on GitHub. For the hosted site use OPENAI_PROXY_URL
+   (the key lives in the worker). OPENAI_API_KEY is for local testing only.
    ===================================================================== */
 
-const OPENAI_API_KEY = "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";  // <-- paste your key between these quotes, e.g. "sk-proj-...."
+const OPENAI_API_KEY = "";
+
+// PUBLIC HOSTING (GitHub Pages): paste your Cloudflare Worker URL here, e.g.
+// "https://lingua-proxy.yourname.workers.dev". The worker holds the real key.
+const OPENAI_PROXY_URL = "";  // <-- paste your worker URL between these quotes
 
 // Models used across the site. gpt-4o-mini is inexpensive and fast — good default.
 const OPENAI_CHAT_MODEL = "gpt-4o-mini";
