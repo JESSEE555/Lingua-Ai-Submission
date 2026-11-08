@@ -6,7 +6,7 @@
    (the key lives in the worker). OPENAI_API_KEY is for local testing only.
    ===================================================================== */
 
-const OPENAI_API_KEY = "";
+const OPENAI_API_KEY = "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";
 
 // PUBLIC HOSTING (GitHub Pages): paste your Cloudflare Worker URL here, e.g.
 // "https://lingua-proxy.yourname.workers.dev". The worker holds the real key.
