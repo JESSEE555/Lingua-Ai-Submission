@@ -10,7 +10,7 @@ const OPENAI_API_KEY = "";
 
 // PUBLIC HOSTING (GitHub Pages): paste your Cloudflare Worker URL here, e.g.
 // "https://lingua-proxy.yourname.workers.dev". The worker holds the real key.
-const OPENAI_PROXY_URL = "";  // <-- paste your worker URL between these quotes
+const OPENAI_PROXY_URL = "https://lingua-proxy.jesse-brook.workers.dev/";  // <-- paste your worker URL between these quotes
 
 // Models used across the site. gpt-4o-mini is inexpensive and fast — good default.
 const OPENAI_CHAT_MODEL = "gpt-4o-mini";
